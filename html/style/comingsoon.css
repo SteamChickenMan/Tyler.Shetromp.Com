@@ -1,0 +1,16 @@
+body{
+
+    background-color: #ff715b;
+    color: #540B0E;
+    text-align: center;
+    margin: 30%;
+}
+
+img{
+    float: right;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
