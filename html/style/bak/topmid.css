@@ -1,0 +1,27 @@
+.topL{
+    clear: inline-start;
+    float: left;
+   /* border: 8px;
+    border-color: #540B0E;
+    border-radius: 6px;
+    background-color: #454966;*/
+    padding: 10px;
+    
+
+}
+.topR{
+
+    float: right;
+   /* border: 8px;
+    border-color: #540B0E;
+    border-radius: 6px;*/
+    padding: 10px;
+
+}
+
+.topR img{
+
+    max-width: 80%;
+    max-height: auto;
+
+}
