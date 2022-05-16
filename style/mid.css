@@ -3,15 +3,17 @@
     display: grid;
     grid-template-rows: 1;
     grid-template-columns: 2;
-    width: 90vw;
-    height: 70vh;
+    max-width: 90vw;
+    height: 50vh;
 
+/*
     background-image: url(https://th.bing.com/th/id/R.525497e97e20666a9a85637d5b37d566?rik=u0y7AZBiS%2flGDQ&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2016%2f10%2fChicken-Photos.jpg&ehk=MITcRAtrBxY1KHIce0w1WcsSTu%2fX7zKx31cd%2fWAfWp8%3d&risl=&pid=ImgRaw&r=0);
     background-clip: content-box;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 180%;
+    background-position: 130%;
     background-origin: border-box;
+*/
     border: 8px;
     border-color: #540B0E;
     border-radius: 16px;
@@ -19,17 +21,22 @@
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 1%;
+	margin-bottom: 1%;
     background-color: #023618;
 }
 
 .top{
+	
+	height: 50vh;
 
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
-    grid-column-end: 3;
-    width: 50vw;
-    height: 70vh;
+    grid-column-end: 2;
+/*
+    width: 90vw;
+    height: 100vh;
+*/
     clear: inline-start;
     float: left;
    /* border: 8px;
@@ -38,13 +45,40 @@
     background-color: #454966;*/
     padding-left: 5%;
     padding-right: 11%;
-    padding-top: 5%;
+    padding-top: 2%;
+	padding-bottom: 2%;
 
     text-align: left;
 
 }
 
 .top p{
-    width: 20vw;
+    min-width: 30vw;
+	max-width: 30vw;
     text-indent: 10mm;
+}
+.topR{
+	
+	border: 8px;
+    border-color: #540B0E;
+    border-radius: 16px;
+	grid-column-start: 2;
+	grid-column-end: 3;
+
+    min-width: 60vw;
+	max-width: 60vw;
+	height:50vh;
+	max-height: 100%;
+	background-clip: border-box;
+	    background-image: url(https://th.bing.com/th/id/R.525497e97e20666a9a85637d5b37d566?rik=u0y7AZBiS%2flGDQ&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2016%2f10%2fChicken-Photos.jpg&ehk=MITcRAtrBxY1KHIce0w1WcsSTu%2fX7zKx31cd%2fWAfWp8%3d&risl=&pid=ImgRaw&r=0);
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 130%;
+    background-origin: border-box;
+	
+}
+.topR img{
+	max-width: inherit;
+	max-height: inherit;
 }
