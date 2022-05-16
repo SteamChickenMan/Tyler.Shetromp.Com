@@ -4,7 +4,8 @@
     grid-template-rows: 1;
     grid-template-columns: 2;
     max-width: 90vw;
-    height: 50vh;
+    min-height: 50vh;
+	max-height: 100vh;
 
     border: 8px;
     border-color: #540B0E;
@@ -20,7 +21,8 @@
 
 .top{
 	width: 30vw;
-	height: 50vh;
+	min-height: 50vh;
+	max-height: 100vh;
 
     grid-row-start: 1;
     grid-row-end: 1;
@@ -57,8 +59,8 @@
 
     min-width: 60vw;
 	max-width: 60vw;
-	height:50vh;
-	max-height: 100%;
+	min-height:50vh;
+	max-height: 100vh;
 	
 	
 	background-clip: border-box;
@@ -66,7 +68,6 @@
     background-clip: content-box;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 130%;
     background-origin: border-box;
 	
 }
