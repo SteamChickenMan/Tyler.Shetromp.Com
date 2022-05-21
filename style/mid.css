@@ -80,7 +80,19 @@
 }
 
 .botL{
-	margin-left: 30%;
+	margin-left: 3%;
+	background-color: #023618;
+}
+
+.botL p{
+	float: left;
+	font-size: 20pt;
+
+}
+.botL form { 
+	margin-top: 2.4%;
+	margin-left: 1%;
+	float: left;
 }
 
 .botR{
