@@ -3,6 +3,7 @@ body{
     background-color: #2c2f42;
     color: #FF715B;
     max-width: 90vw;
-    max-height: none;
-
+    min-height: 95vh;
+	padding-bottom: 2%;
+	margin-bottom: 1%;
 }

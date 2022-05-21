@@ -1,5 +1,5 @@
 .header{
-
+	position: fixed;
     display: grid;
     grid-template-rows: 1;
     grid-template-columns: 2;
